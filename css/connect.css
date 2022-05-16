@@ -1,0 +1,50 @@
+
+
+
+/* Header */ 
+
+
+ 
+  
+ 
+/* Header */
+
+
+ 
+.form-group{
+	padding:50px 25px;
+	margin-top: 100px; 
+	margin-bottom: 100px;
+
+}
+.login {
+ margin-left: 20%;
+ margin-right: 20%;
+ background-color: #343a40; 
+}
+
+
+body{
+	background-color: #A9A9A9; 
+	height: 800px;
+   background-image: url('../img/restau.jpg'); 
+   background-size: cover; 
+   background-position: center;
+   position: relative;
+   color: white;  
+
+}
+ 
+
+	
+
+
+/* button connect*/
+#connect {
+
+	margin-left: 35%;
+	width: 30%;
+	background-color:#53C2DB; 	
+}
+
+

@@ -1,0 +1,29 @@
+<html>
+<head>
+    <SCRIPT LANGUAGE="JavaScript">
+        var date = new Date;
+        var connection = date.getTime();
+
+        function deconnection()
+        {
+            var date = new Date;
+            var deconnection = date.getTime();
+
+            var temps = Math.floor(deconnection - connection);
+            var secondes = Math.floor(temps /1000);
+            var minutes = Math.floor(secondes/60);
+
+            if (secondes>=60) {secondes = secondes-60;}
+
+            var ch = "Temps resté sur la page : " + minutes + " minute(s) et " + secondes + " seconde(s)";
+            alert(ch);
+        }
+    </SCRIPT>
+
+</head>
+
+<body>
+Ici votre texte...
+<button onclick="deconnection()">Temps de connexion</button>
+</body>
+</html>

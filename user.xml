@@ -1,0 +1,15 @@
+<?php
+$xml .= " <?xml version="1.0" encoding="UTF-8"?>
+<liste>
+// connexion SQL
+$req = connectDB("SELECT * FROM users");
+while($dat = db_fetch_assoc($req)){
+<block>
+  blabla
+</block>
+}
+</liste>"
+
+file_put_contents( "data.xml", $xml);
+
+?>
